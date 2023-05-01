@@ -11,15 +11,20 @@
     </head>
     <body>
         <header>
-            <section class="header-content">
-                <figure>
-                    <img src="./img/Logo/Logo.jpg" alt="Logo" class="logo" />
-                </figure>
-                <nav class="navbar">
-                    <a href="#inicio">Angel Hernandez</a>
-                    <a href="#contacto">Contacto</a>
-                </nav>
-            </section>
+            <figure class="logo-container">
+                <a href="#inicio"
+                    ><img
+                        src="./img/Logo/Logo.Sin_Fondo.png"
+                        alt="Logo"
+                        class="logo"
+                /></a>
+            </figure>
+            <nav class="navbar">
+                <ul class="navbar-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
         </header>
 
         <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
@@ -27,14 +32,15 @@
 
         <main>
             <section id="inicio">
-                <figure>
+                <figure class="avatar-container">
                     <img
                         src="./img/Foto Perfil Avatar/fotor Avatar.jpg"
                         alt="Avatar Angel Hernandez"
                         class="avatar-img"
                     />
                 </figure>
-                <article>
+                <article class="about-me">
+                    <h1>Hola! Soy Angel...</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         A expedita, inventore suscipit delectus maxime esse ea
@@ -43,8 +49,28 @@
                         exercitationem optio amet totam, temporibus consequuntur
                         provident impedit.
                     </p>
+                    <a href="" class="btn-CV"><span> Descargar mi CV</span></a>
                 </article>
             </section>
+            <section id="contacto">
+                <article class="contact-info">
+                    <h2>Hablemos</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Placeat dolorem praesentium, eaque quis atque dolore,
+                        unde odit fugit ut consectetur, voluptate soluta non
+                        necessitatibus blanditiis sunt assumenda nihil nesciunt
+                        molestiae! Nesciunt saepe perspiciatis tenetur expedita
+                        assumenda? Facere sit autem a.
+                    </p>
+                </article>
+                <div class="contact-icons">
+                    <a href=""><img src="./img/mail.png" alt="mail" /></a
+                    ><a href=""><img src="./img/github.png" alt="github" /></a
+                    ><a href=""><img src="./img/linkedin.png" alt="" /></a>
+                </div>
+            </section>
         </main>
+        <footer>Codigo Latam. Venezuela - Argentina</footer>
     </body>
 </html>
