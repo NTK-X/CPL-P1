@@ -190,6 +190,13 @@ img {
     background: rgb(255, 0, 200);
 }
 
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-icons {
     display: flex;
     justify-content: center;
