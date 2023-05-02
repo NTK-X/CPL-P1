@@ -62,6 +62,9 @@ main {
 body {
     background-color: #fbfbfb;
 }
+
+/* *Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -127,6 +130,8 @@ header a:visited {
     /* gap: 20px; */
 }
 
+/* * Seccion Inicio */
+
 #inicio {
     margin-top: 90px;
     display: flex;
@@ -143,6 +148,8 @@ header a:visited {
     width: 400px;
     border-radius: 15px;
 }
+
+/* * Generales */
 
 section {
     display: flex;
@@ -171,6 +178,8 @@ img {
     max-width: 100%;
 }
 
+/* * Seccion Inicio, sobre mi y CV */
+
 .about-me {
     display: flex;
     flex-direction: column;
@@ -190,6 +199,8 @@ img {
     background: rgb(255, 0, 200);
 }
 
+
+/* * Seccion Contacto */
 
 #contacto {
     display: flex;
@@ -219,6 +230,8 @@ img {
     border-radius: 15px;
     padding: 20px;
 }
+
+/* * Seccion Footer */
 
 footer {
     display: flex;
